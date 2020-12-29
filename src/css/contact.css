@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat" , sans-serif;
+
+}
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+
+  background-image: url("../images/plane.jpg");
+
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: normal;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 1px;
+}
+
+h1{
+  margin-top: 10%;
+  filter:blur(0px);
+  text-align:center;
+  color: white;
+  margin-top:1%;
+}
+h3{
+  font-weight: 100;
+  margin-top: 10%;
+  filter:blur(0px);
+  text-align:center;
+  color: white;
+  margin-top:1%;
+}

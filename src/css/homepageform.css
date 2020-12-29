@@ -1,0 +1,20 @@
+fieldset{
+
+  opacity: 0.8;
+
+  border: 0px;
+  padding-left: 50%;
+  padding-top: 15%;
+  color: orange;
+  font-size: 20px;
+
+
+}
+.form-control{
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 2px 10px;
+  margin: 5px;
+
+
+}
